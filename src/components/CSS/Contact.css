@@ -1,0 +1,28 @@
+.contact-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-page img {
+  margin-left: 25px;
+  width: 800px;
+  height: 500px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 25%;
+  margin: 50px 50px 50px 75px;
+  padding: 50px;
+  background-color: lightcyan;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+
+.contact-page p {
+  line-height: 40px;
+}

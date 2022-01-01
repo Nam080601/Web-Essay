@@ -1,0 +1,182 @@
+.block-profile {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.block-profile .dashboard {
+  min-width: 250px;
+  margin: 25px 50px 25px 75px;
+}
+
+.block-profile .content {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 50px;
+  padding: 50px 100px;
+  background-color: lightcyan;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+
+.menu li {
+  display: flex;
+  background: #f08080;
+  font-weight: bold;
+  color: #fff;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.menu li:first-child {
+  border-top: 3px solid white;
+}
+
+.content h1 {
+  margin: 2rem 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.content label {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  min-width: 10rem;
+}
+
+.content .form-group {
+  margin-top: 1.5rem;
+}
+
+.img {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  font-size: 1rem;
+  margin: 0 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 0.15rem solid #000;
+}
+
+.block-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.block-btn button {
+  font-size: 13pt;
+  padding: 0.7rem 1.8rem;
+  cursor: pointer;
+  color: #fff;
+  background: green;
+  border: 3px solid green;
+  border-radius: 0.5rem;
+}
+
+.block-btn button:hover {
+  background: white;
+  color: green;
+  border: 3px solid green;
+}
+
+.menu li:hover {
+  background: white;
+}
+
+.menu li:hover a {
+  color: red;
+}
+
+.menu li a {
+  padding: 15px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  height: 100%;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.content table {
+  text-align: center;
+}
+
+.content table th {
+  font-size: 15pt;
+  padding: 1rem 2rem;
+}
+
+.content table td {
+  padding: 1rem;
+}
+
+.btn-view,
+.btn-delete {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+
+  border-radius: 5px;
+}
+
+.btn-view {
+  border: 3px solid #28a745;
+  background-color: #28a745;
+}
+
+.btn-view:hover {
+  color: #28a745;
+  background-color: #fff;
+}
+
+.btn-delete {
+  border: 3px solid red;
+  background-color: red;
+}
+
+.btn-delete:hover {
+  color: red;
+  background-color: #fff;
+}
+
+#vandon-stt {
+  width: 50px;
+}
+
+#vandon-id {
+  width: 200px;
+}
+
+#vandon-action {
+  width: 100px;
+}
+
+#info-error {
+  display: none;
+  margin-top: 30px;
+  font-size: 15pt;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}

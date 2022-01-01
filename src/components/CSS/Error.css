@@ -1,0 +1,29 @@
+#page-error {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 150px;
+}
+
+#page-error h1 {
+  line-height: 75px;
+}
+
+#logo {
+  width: 100px;
+}
+
+#img-error {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  border-bottom: 5px solid white;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#img-error p {
+  font-weight: bold;
+  font-size: 20pt;
+  margin: 0px 25px;
+}

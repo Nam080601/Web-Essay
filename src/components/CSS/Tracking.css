@@ -1,0 +1,112 @@
+.tracking-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.block-search {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 5rem;
+  background-color: lavender;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+
+.block-search input {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid black;
+}
+
+.block-search input:focus {
+  box-shadow: 0 0 1rem aqua;
+}
+
+.block-search p {
+  font-size: 1.2rem;
+  margin: 1.6rem 0;
+  color: #212539;
+}
+
+.block-search button {
+  width: 100%;
+  height: 3.5rem;
+  background: #ff0000;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.block-search button:hover {
+  background-color: white;
+  color: red;
+  border: 3px solid red;
+}
+
+.info-order {
+  margin: 25px 0;
+  padding: 1.5rem 5rem 3rem;
+  background-color: lavender;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+  width: 75%;
+}
+
+.info-order .people {
+  display: flex;
+  justify-content: space-between;
+}
+.idOrder {
+  font-size: 2rem;
+  text-align: center;
+  color: #ff0000;
+  margin-bottom: 3rem;
+}
+.info-order #receiver {
+  width: 45%;
+  background-color: lightcyan;
+  border: 3px solid grey;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+  padding: 1rem;
+}
+.info-order #sender {
+  width: 45%;
+  background-color: lightcyan;
+  border: 3px solid grey;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+  padding: 1rem;
+}
+.info-order #order {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: lightcyan;
+  border: 3px solid grey;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+#receiver p,
+#sender p,
+#order p {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+#tracking-error {
+  display: none;
+  color: red;
+}

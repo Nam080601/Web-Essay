@@ -1,0 +1,103 @@
+.cre {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  padding: 50px;
+  border: 5px solid white;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+  background-color: lavender;
+}
+.cre span {
+  font-size: 20pt;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px;
+}
+.cre form {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+}
+.cre label {
+  font-weight: bold;
+  margin: 0px 10px;
+}
+.cre input {
+  box-sizing: border-box;
+  margin: 5px 0 15px;
+  padding: 5px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.from-to {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  padding: 20px 0;
+  background-color: lightcyan;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+.from-to input {
+  box-sizing: border-box;
+  margin: 5px 0 15px;
+  padding: 5px;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+.form-col {
+  margin: 0 25px;
+}
+.label-from-to {
+  font-size: 15pt;
+}
+#cre-button {
+  margin: 20px 0 0;
+  padding: 8px;
+  color: white;
+  background-color: rgb(0, 200, 0);
+  border: 2px solid rgb(0, 200, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 30%;
+}
+#cre-button:hover {
+  background-color: white;
+  border: 2px solid rgb(0, 200, 0);
+  color: rgb(0, 200, 0);
+}
+#create-order-page {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  width: 100%;
+}
+#cre-error {
+  margin-top: 20px;
+  padding: 10px;
+  color: red;
+}
+@media only screen and (max-width: 767px) {
+  #create-order-page {
+    margin-top: 15px;
+  }
+}
